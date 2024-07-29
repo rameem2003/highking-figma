@@ -17,19 +17,19 @@ const TravelPartners = () => {
 
         <Flex className="flex-wrap w-full items-center justify-center mt-[114px] gap-[80px]">
           <div className="w-3/12 text-center">
-            <Image src="/com1.png" />
+            <Image src="/company1.png" />
           </div>
           <div className="w-3/12 text-center">
-            <Image src="/com2.png" />
+            <Image src="/company2.png" />
           </div>
           <div className="w-3/12 text-center">
-            <Image src="/com3.png" />
+            <Image src="/company3.png" />
           </div>
           <div className="w-3/12 text-center">
-            <Image src="/com4.png" />
+            <Image src="/company4.png" />
           </div>
           <div className="w-3/12 text-center">
-            <Image src="/com5.png" />
+            <Image src="/company5.png" />
           </div>
         </Flex>
       </Container>
