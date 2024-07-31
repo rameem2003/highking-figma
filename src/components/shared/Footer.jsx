@@ -15,11 +15,11 @@ const Footer = () => {
   return (
     <footer className=" pt-[117px] bg-hikeLightSky">
       <Container>
-        <Flex>
-          <div className="w-1/2">
+        <Flex className="flex-col gap-12 md:flex-row md:gap-0">
+          <div className=" w-full md:w-1/2">
             <Image src="/logo.png" alt="logo" />
 
-            <p className=" font-normal xl:text-[20px] text-hikeGray xl:w-[341px] mt-4">
+            <p className=" font-normal text-base xl:text-[20px] text-hikeGray xl:w-[341px] mt-4">
               We envision a world where everyone feels welcome in the American
               hiking community.
             </p>
@@ -29,23 +29,23 @@ const Footer = () => {
                 className=" p-2 rounded-full flex items-center justify-center bg-hikeSky"
                 href=""
               >
-                <FaFacebookF className="text-[32px] text-white" />
+                <FaFacebookF className=" text-2xl xl:text-[32px] text-white" />
               </a>
               <a
                 className=" p-2 rounded-full flex items-center justify-center bg-hikeSky"
                 href=""
               >
-                <FaTwitter className="text-[32px] text-white" />
+                <FaTwitter className=" text-2xl xl:text-[32px] text-white" />
               </a>
               <a
                 className=" p-2 rounded-full flex items-center justify-center bg-hikeSky"
                 href=""
               >
-                <FaInstagram className="text-[32px] text-white" />
+                <FaInstagram className=" text-2xl xl:text-[32px] text-white" />
               </a>
             </Flex>
           </div>
-          <div className="w-1/2">
+          <div className=" w-full md:w-1/2">
             <Flex className="items-center justify-between">
               <div>
                 <h2 className=" font-medium xl:text-[20px] text-hikeBlack mb-[30px]">
