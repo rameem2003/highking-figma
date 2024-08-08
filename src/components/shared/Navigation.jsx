@@ -61,11 +61,11 @@ const Navigation = () => {
           </div>
 
           <List
-            className={`w-full  md:w-8/12 flex flex-col md:flex-row absolute ${
+            className={`w-full h-screen md:h-auto md:w-8/12 flex flex-col md:flex-row absolute ${
               scroll ? "bg-white" : "bg-hikeLightSky"
-            } top-[100px] ${
+            } top-0 ${
               toggle ? "left-0" : "left-[-100%]"
-            } md:static items-center justify-end gap-[50px] ease-in-out duration-300 `}
+            } md:static items-center justify-center md:justify-end gap-[50px] ease-in-out duration-300 `}
           >
             <ListItem className="font-medium text-base xl:text-[18px] text-hikeBlack cursor-pointer">
               Location
